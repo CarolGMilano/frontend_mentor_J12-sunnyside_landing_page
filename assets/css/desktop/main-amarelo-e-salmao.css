@@ -23,6 +23,7 @@
         align-items: flex-start;
         text-align: start;
         padding: 4rem;
+        width: 50%;
     }
 
     .amarelo__texto .texto__titulo,
