@@ -1,6 +1,7 @@
 .cabecalho {
-    background: url("../../img/mobile/image-header.jpg") no-repeat;
-    background-size: 100%;
+    background: url("../../img/mobile/image-header.jpg") no-repeat, var(--azul_header);
+    background-size: contain;
+    background-position: center;
     padding: 2rem 1.5rem 6rem 1.5rem;
     height: 560px;
     display: flex;
@@ -66,8 +67,9 @@
 .cabecalho__nav {
     position: absolute;
     background-color: var(--branco);
-    width: 341px;
+    width: 90%;
     top: 115px;
+    right: 25px;
 }
 
 .cabecalho__nav ul {

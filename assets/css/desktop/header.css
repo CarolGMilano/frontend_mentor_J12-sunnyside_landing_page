@@ -2,9 +2,9 @@
     .cabecalho {
         background: url("../../img/desktop/image-header.jpg") no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center top;
         padding: 4rem 4rem 0 4rem;
-        height: 100vh;
+        height: 50vh;
     }
 
     .cabecalho__container {
@@ -68,5 +68,10 @@
     .cabecalho__container .container__nav ul li:nth-child(4) .nav__link:hover{
         background-color: var(--branco_hover);
         color: var(--branco);
+    }
+
+    .cabecalho__nav, 
+    .triangulo {
+        display: none;
     }
 }
