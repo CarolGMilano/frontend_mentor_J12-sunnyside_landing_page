@@ -1,0 +1,95 @@
+.cabecalho {
+    background: url("../../img/mobile/image-header.jpg") no-repeat;
+    background-size: 100%;
+    padding: 2rem 1.5rem 6rem 1.5rem;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cabecalho__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.cabecalho__container .container__logo {
+    width: 130px;
+    height: auto;
+}
+
+.cabecalho__container .container__menuHamburguer {
+    width: 30px;
+    height: 20px;
+    background: url("../../img/icon-hamburger.svg") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.cabecalho__container .container__nav {
+    display: none;
+}
+
+.cabecalho__titulo {
+    justify-self: center;
+    align-self: center;
+    font-family: var(--fonte_titulos);
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: var(--branco);
+    margin-bottom: 2rem;
+}
+
+.cabecalho__seta {
+    background: url("../../img/icon-arrow-down.svg") no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-right: 30px solid transparent;
+    border-top: 30px solid var(--branco);
+    position: absolute;
+    top: 90px;
+    right: 25px;
+    transform: rotate(180deg);
+}
+
+.cabecalho__nav {
+    position: absolute;
+    background-color: var(--branco);
+    width: 341px;
+    top: 115px;
+}
+
+.cabecalho__nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    row-gap: 2rem;
+}
+
+.cabecalho__nav ul .nav__link{
+    font-size: 16px;
+    color: var(--cinza);
+}
+
+.cabecalho__nav ul li:nth-child(4) .nav__link{
+    color: var(--preto_azulado);
+    text-transform: uppercase;
+    padding: .8rem 2rem;
+    font-weight: 900;
+    background-color: var(--amarelo);
+    font-family: var(--fonte_titulos);
+    border-radius: 30px;
+}

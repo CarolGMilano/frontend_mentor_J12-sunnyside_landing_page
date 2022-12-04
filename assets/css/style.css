@@ -1,0 +1,37 @@
+@import url("mobile/body.css");
+@import url("mobile/header.css");
+@import url("mobile/main-amarelo-e-salmao.css");
+@import url("mobile/main-container.css");
+@import url("mobile/main-comentarios.css");
+@import url("mobile/main-galeria.css");
+@import url("mobile/footer.css");
+
+@import url("desktop/header.css");
+@import url("desktop/main-amarelo-e-salmao.css");
+@import url("desktop/main-container.css");
+@import url("desktop/main-comentarios.css");
+@import url("desktop/main-galeria.css");
+
+@import url("max-width/header.css");
+@import url("max-width/main.css");
+
+:root {
+    --amarelo: hsl(51, 100%, 49%);
+    --amarelo_pastel: hsla(51, 100%, 49%, 0.3);
+    --amarelo_pastel_hover: hsla(51, 100%, 49%, 0.6);
+    --azul_escuro: hsl(198, 62%, 26%);
+    --bege: hsl(25, 100%, 98%);
+    --branco: hsl(0, 0%, 100%);
+    --branco_hover: hsla(0, 0%, 100%, 0.3);
+    --cinza: hsl(213, 9%, 39%);
+    --cinza_azulado: hsl(232, 10%, 55%);
+    --cinza_claro: hsl(210, 4%, 67%);
+    --preto_azulado: hsl(212, 27%, 19%);
+    --salmao: hsla(7, 99%, 70%, 0.3);
+    --salmao_hover: hsla(7, 99%, 70%, 0.6);
+    --turquesa: hsl(166, 44%, 69%);
+    --verde_militar: hsl(166, 40%, 34%);
+
+    --fonte_primaria: 'Barlow', sans-serif;
+    --fonte_titulos: 'Source Serif Pro', serif;
+}

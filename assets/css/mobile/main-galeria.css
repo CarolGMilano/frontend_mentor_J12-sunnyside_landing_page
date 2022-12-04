@@ -1,0 +1,14 @@
+.corpo__galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.corpo__galeria .galeria__imgMobile {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.corpo__galeria .galeria__imgDesktop {
+    display: none;
+}

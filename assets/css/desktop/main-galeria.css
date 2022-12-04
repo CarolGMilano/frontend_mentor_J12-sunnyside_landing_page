@@ -1,0 +1,14 @@
+@media screen and (min-width: 800px) {
+    .corpo__galeria {
+        flex-wrap: nowrap;
+    }
+    
+    .corpo__galeria .galeria__imgMobile {
+        display: none;
+    }
+    
+    .corpo__galeria .galeria__imgDesktop {
+        display: block;
+        width: 25%;
+    }
+}

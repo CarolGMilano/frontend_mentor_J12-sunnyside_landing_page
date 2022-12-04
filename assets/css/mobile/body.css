@@ -1,0 +1,12 @@
+body {
+    font-family: var(--fonte_primaria);
+    background-color: var(--bege);
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}

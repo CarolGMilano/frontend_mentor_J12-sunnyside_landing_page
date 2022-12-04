@@ -1,0 +1,49 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--turquesa);
+}
+
+.rodape__img {
+    width: 150px;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.rodape__nav {
+    padding-bottom: 5rem;
+}
+
+.rodape__nav ul{
+    display: flex;
+    column-gap: 3rem;
+}
+
+.rodape__nav .nav__link {
+    font-size: 17px;
+    color: var(--verde_militar);
+    transition: .3s;
+}
+
+.rodape__nav .nav__link:hover {
+    color: var(--branco);
+}
+
+.rodape__social {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.rodape__social .social__link svg{
+    width: 18px;
+    height: 18px;
+    fill: var(--verde_militar);
+    transition: .3s;
+}
+
+.rodape__social .social__link svg:hover{
+    fill: var(--branco);
+}

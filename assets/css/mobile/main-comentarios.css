@@ -1,0 +1,69 @@
+.corpo__comentarios {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.comentarios__titulo {
+    font-family: var(--fonte_titulos);
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    padding-bottom: 4rem;
+    color: var(--cinza_claro);
+    font-weight: 900;
+}
+
+.comentarios__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+
+.comentarios__container .container__perfil {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__perfil .perfil__img {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+.container__perfil:nth-child(1) .perfil__img {
+    background: url("../../img/image-emily.jpg") no-repeat;
+    background-size: contain;
+}
+
+.container__perfil:nth-child(2) .perfil__img {
+    background: url("../../img/image-thomas.jpg") no-repeat;
+    background-size: contain;
+}
+
+.container__perfil:nth-child(3) .perfil__img {
+    background: url("../../img/image-jennie.jpg") no-repeat;
+    background-size: contain;
+}
+
+.container__perfil .perfil__post {
+    color: var(--cinza);
+    font-size: 18px;
+    padding-bottom: 1.5rem;
+}
+
+.container__perfil .perfil__nome {
+    color: var(--preto_azulado);
+    font-size: 20px;
+    padding-bottom: .5rem;
+    font-family: var(--fonte_titulos);
+    font-weight: 900;
+}
+
+.container__perfil .perfil__cargo {
+    color: var(--cinza_claro);
+    font-size: 15px;
+}

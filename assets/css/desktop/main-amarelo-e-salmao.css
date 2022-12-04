@@ -1,0 +1,32 @@
+@media screen and (min-width: 800px) {
+    .corpo__amarelo{
+        flex-direction: row-reverse;
+    }
+
+    .corpo__salmao {
+        flex-direction: row;
+    }
+
+    .corpo__amarelo .amarelo__imgMobile,
+    .corpo__salmao .salmao__imgMobile {
+        display: none;
+    }
+
+    .corpo__amarelo .amarelo__imgDesktop,
+    .corpo__salmao .salmao__imgDesktop {
+        display: block;
+        width: 50%;
+    }
+
+    .corpo__amarelo .amarelo__texto,
+    .corpo__salmao .salmao__texto {
+        align-items: flex-start;
+        text-align: start;
+        padding: 4rem;
+    }
+
+    .amarelo__texto .texto__titulo,
+    .salmao__texto .texto__titulo {
+        font-size: 45px;
+    }
+}

@@ -1,0 +1,39 @@
+@media screen and (min-width: 800px) {
+    .corpo__container {
+        flex-direction: row;
+    }
+
+    .corpo__turquesa {
+        background: url("../../img/desktop/image-graphic-design.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 470px;
+    }
+
+    .corpo__azul {
+        background: url("../../img/desktop/image-photography.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 470px;
+    }
+
+    .corpo__turquesa .turquesa__titulo,
+    .corpo__azul .azul__titulo {
+        font-size: 25px;
+    }
+
+    .corpo__turquesa .turquesa__descricao,
+    .corpo__azul .azul__descricao {
+        width: 400px;
+        font-size: 14px;
+    }
+
+    .corpo__turquesa .turquesa__descricao,
+    .corpo__azul .azul__descricao {
+        padding: 0 1.5rem 2rem 1.5rem;
+        line-height: 1.9rem;
+        font-size: 16px;
+    }
+}
